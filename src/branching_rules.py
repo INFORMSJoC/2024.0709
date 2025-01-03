@@ -1,4 +1,3 @@
-import pdb
 import sys
 import numpy as np
 from operator import itemgetter
@@ -450,7 +449,6 @@ class BranchingRules:
             return var_prospects[np.nanargmax(var_score)], var_score_dict
         else: # pick var where min lp gain is the max - we know the max side is going to be pruned
             dom_var_score = np.min(lp_gains[pruning_set, :], axis=1)
-            if self.perfect_info: pdb.set_trace()
             return var_prospects[pruning_set[np.argmax(dom_var_score)]], None
 
 

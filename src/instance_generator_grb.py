@@ -1,9 +1,9 @@
 import numpy as np
 from itertools import product, combinations, permutations
-from scipy.spatial import distance_matrix
 import math
 import gurobipy as gp
 from gurobipy import quicksum
+from scipy.spatial import distance_matrix
 import scipy.sparse
 
 problem_class = ''

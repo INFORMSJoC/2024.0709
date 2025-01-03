@@ -1,12 +1,11 @@
 import sys
 import gurobipy as gp
 import numpy as np
-import BranchAndBound.bisect_local as bisect
 from operator import attrgetter
 from gurobipy import GRB
 from dataclasses import dataclass
-from BranchAndBound.branching_rules import BranchingRules
-import OptimalTrees.opt_bnb_tree as opt_bnb_tree
+from src.branching_rules import BranchingRules
+import src.bisect_local as bisect
 
 
 class BranchAndBound:
@@ -102,11 +101,6 @@ class BranchAndBound:
             self.add_nodes = self.add_depth_first_search_node
         else:
             sys.exit("node selection rule not recognized")
-
-        if branching_rule == 'optimal_branching':
-            self.opt_tree_size, self.opt_tree = opt_bnb_tree.opt_tree(mps_path)
-        else:
-            self.opt_tree_size, self.opt_tree = None, 0
 
         self.branching_decision = BranchingRules(
             branching_rule, sb_score_fn, self.grb_model.n, self.grb_model, self.opt_tree, tree_estimate_fn

@@ -1,5 +1,4 @@
 import sys
-sys.path.append("/home/pshah398/LearningToBranch/EcoleGasseEtAl/RandomTrees/BranchAndBound")
 import pandas as pd
 import pyscipopt as scip
 

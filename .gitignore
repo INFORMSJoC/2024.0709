@@ -1,4 +1,4 @@
 
 /.idea
 *.mps
-*.lp
+/data/miplibFiles_all

@@ -3,7 +3,7 @@
 # Non-monotonicity of Branching Rules with Respect to Linear Relaxations
 
 This project is distributed in association with the [INFORMS Journal on
-Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE).
+Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE.md).
 
 The software and data in this repository are associated with the paper [Non-monotonicity of Branching Rules with Respect to Linear Relaxations](https://doi.org/10.1287/ijoc.2024.0709) by Prachi Shah, Santanu S. Dey and Marco Molinaro.
 
@@ -26,7 +26,7 @@ Below is the BibTex for citing this snapshot of the repository.
   year =          {2025},
   doi =           {10.1287/ijoc.2024.0709},
   url =           {https://github.com/INFORMSJoC/2024.0709},
-  note =          {Available for download at \url{https://github.com/INFORMSJoC/2024.0709}},
+  note =          {Available for download at https://github.com/INFORMSJoC/2024.0709},
 }
 ```
 ## Description
@@ -65,5 +65,3 @@ and to plot the results,
 ```
 python scripts/MIPLIB/plot_results.py
 ```
-
-

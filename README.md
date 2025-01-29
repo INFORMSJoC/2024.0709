@@ -24,7 +24,7 @@ Below is the BibTex for citing this snapshot of the repository.
   publisher =     {INFORMS Journal on Computing},
   title =         {Non-monotonicity of Branching Rules with Respect to Linear Relaxations},
   year =          {2025},
-  doi =           {10.1287/ijoc.2024.0709},
+  doi =           {10.1287/ijoc.2024.0709.cd},
   url =           {https://github.com/INFORMSJoC/2024.0709},
   note =          {Available for download at https://github.com/INFORMSJoC/2024.0709},
 }
